@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0d0e15"/>
+  <path d="M980 120 a150 150 0 1 0 80 258 A128 128 0 0 1 980 120 Z" fill="#9c8cf0"/>
+  <circle cx="880" cy="150" r="5" fill="#9c8cf0"/>
+  <circle cx="920" cy="110" r="3.5" fill="#9c8cf0"/>
+  <text x="90" y="150" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="82" font-weight="800" fill="#e8e9f2" letter-spacing="-1">Sleep Calculator</text>
+  <text x="90" y="205" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="27" fill="#9a9db4">Best time to sleep and wake up · 90-minute cycles</text>
+  <text x="90" y="330" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="60" font-weight="800" fill="#5fbf6e">10:45 PM</text>
+  <text x="90" y="372" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="24" fill="#9a9db4">6 cycles · 9 hr of sleep · to wake at 7:00 AM</text>
+  <text x="90" y="470" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="24" fill="#e8e9f2">Wake at the end of a cycle, not the middle of one</text>
+  <text x="90" y="524" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="22" fill="#9a9db4">A rule of thumb · not medical advice · runs in your browser</text>
+</svg>

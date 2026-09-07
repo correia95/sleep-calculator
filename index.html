@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#5b4bc4" />
+
+    <title>Sleep Calculator — best time to sleep and wake up</title>
+    <meta
+      name="description"
+      content="Work out when to go to bed or when to wake up so you rise at the end of a 90-minute sleep cycle instead of the middle of one. Enter a wake-up time or a bedtime and get the cycle-aligned options. Runs in your browser, no sign-up."
+    />
+    <link rel="canonical" href="https://sleep-calculator.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sleep Calculator" />
+    <meta property="og:description" content="When to sleep or wake up to land at the end of a 90-minute sleep cycle, not the middle. Free, runs in your browser." />
+    <meta property="og:url" content="https://sleep-calculator.correia95.workers.dev/" />
+    <meta property="og:image" content="https://sleep-calculator.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sleep Calculator" />
+    <meta name="twitter:description" content="When to sleep or wake up to land at the end of a 90-minute sleep cycle." />
+    <meta name="twitter:image" content="https://sleep-calculator.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Sleep Calculator",
+        "url": "https://sleep-calculator.correia95.workers.dev/",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Calculate cycle-aligned bedtimes and wake times based on 90-minute sleep cycles, entirely in the browser."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How long is a sleep cycle?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A full cycle of light sleep, deep sleep and REM sleep lasts about 90 minutes on average. It varies between people and across the night, with more deep sleep early on and more REM later."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does waking at the end of a cycle matter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You wake most easily from light sleep, which comes at the end of a cycle. Waking from deep sleep causes sleep inertia: a groggy, disoriented feeling that can last up to half an hour."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many hours of sleep do I need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most adults do best on five to six cycles a night, roughly 7.5 to 9 hours in bed after allowing time to fall asleep. Four cycles is a workable short night; three is a last resort."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this sleep calculator accurate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is a rule of thumb based on the average 90-minute cycle. It cannot measure your actual sleep stages and does not replace a doctor's advice if you regularly sleep poorly. A consistent schedule matters more than an exact wake-up minute."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        This sleep calculator needs JavaScript. It works out cycle-aligned bedtimes and wake times
+        from 90-minute sleep cycles, so you wake at the end of a cycle rather than the middle.
+      </p>
+    </noscript>
+  </body>
+</html>
